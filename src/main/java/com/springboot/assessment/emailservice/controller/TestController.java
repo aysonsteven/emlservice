@@ -17,5 +17,10 @@ public class TestController {
     public void testCheck(@PathVariable("param") String param){
         System.out.println(param);
     }
+
+    @GetMapping("/new")
+   public String newCheck(){
+    return "test";
+   } 
     
 }
