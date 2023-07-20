@@ -20,7 +20,7 @@ public class TestController {
 
     @GetMapping("/new")
    public String newCheck(){
-    return "updated";
+    return "updated ---";
    } 
     
 }
